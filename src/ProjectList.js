@@ -10,5 +10,6 @@ export const ProjectList = [
     name: "MealSharing App(coming soon)",
     image: "Proj2",
     technologies: "React,Node.js, mySQL, REST API",
+    href: "https://github.com/WENCHO22/meal-sharing",
   },
 ];
