@@ -8,8 +8,10 @@ function Home() {
   return (
     <div className="home">
       <div className="billboard">
-        <h2> Hi, my name is Wencho</h2>
-        <div className="prompt">
+        <h2 className="animate__animated animate__bounceInDown">
+          Hi, my name is Wencho
+        </h2>
+        <div className="prompt animate__animated animate__flipInX animate__delay-1s">
           <p>A web developer with a passion for learning and creating.</p>
           <a
             href="https://www.linkedin.com/in/wenceslao-posse-silva-039011206/"

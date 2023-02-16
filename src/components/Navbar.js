@@ -23,7 +23,7 @@ function Navbar() {
           <ReorderIcon />
         </button>
       </div>
-      <div className="links">
+      <div className="links  animate__animated animate__fadeInLeft animate__delay-1s">
         <Link to="/"> Home </Link>
         <Link to="/about"> About me </Link>
         <Link to="/projects"> Projects </Link>

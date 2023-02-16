@@ -8,11 +8,11 @@ function ProjectDisplay() {
   const { id } = useParams();
   const project = ProjectList[id];
   return (
-    <div className="project">
+    <div className="project animate__animated animate__fadeIn animate__slow">
       <h1> {project.name}</h1>
       <img src={project.image} alt="projects" />
       <p>
-        <b>Skills:</b> {project.skills}
+        <b>Technologies:</b> {project.technologies}
       </p>
       <a href={project.href} target="_blank" rel="noreferrer">
         <GitHubIcon />

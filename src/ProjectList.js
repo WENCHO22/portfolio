@@ -3,12 +3,12 @@ export const ProjectList = [
   {
     name: "Wordle Clone",
     image: wordleImg,
-    skills: "React,CSS",
+    technologies: "React,CSS",
     href: "https://github.com/WENCHO22/wordle",
   },
   {
     name: "MealSharing App(coming soon)",
     image: "Proj2",
-    skills: "React,Node.js, mySQL, REST API",
+    technologies: "React,Node.js, mySQL, REST API",
   },
 ];

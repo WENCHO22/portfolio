@@ -3,7 +3,7 @@ import "../styles/About.css";
 
 function About() {
   return (
-    <div className="about animated slideInLeft">
+    <div className="about animate__animated animate__lightSpeedInRight animate__fast">
       <h1>About me</h1>
       <p>
         I am a front-end developer located in Malmo, Sweden. I have a great

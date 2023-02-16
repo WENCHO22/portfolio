@@ -2,12 +2,11 @@ import React from "react";
 import ProjectItem from "../components/ProjectItem";
 import { ProjectList } from "../ProjectList";
 
-
 import "../styles/Projects.css";
 
 function Projects() {
   return (
-    <div className="projects">
+    <div className="projects animate__animated animate__flipInX">
       <h1> My Personal Projects</h1>
       <div className="projectList">
         {ProjectList.map((project, idx) => {

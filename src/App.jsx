@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
+import "animate.css";
 
 function App() {
   const loc = useLocation();

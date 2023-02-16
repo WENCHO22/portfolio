@@ -2,8 +2,6 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  /*color: #3e497a; */
-  animation: fadeIn 1s 1.5s backwards;
 }
 
 .billboard {
