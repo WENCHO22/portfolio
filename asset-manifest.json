@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8eeeea98.css",
+    "main.js": "/portfolio/static/js/main.c67476cc.js",
+    "static/js/787.fb771931.chunk.js": "/portfolio/static/js/787.fb771931.chunk.js",
+    "static/media/wordle.png": "/portfolio/static/media/wordle.74d8ddb3c9992aee02a3.png",
+    "index.html": "/portfolio/index.html",
+    "main.8eeeea98.css.map": "/portfolio/static/css/main.8eeeea98.css.map",
+    "main.c67476cc.js.map": "/portfolio/static/js/main.c67476cc.js.map",
+    "787.fb771931.chunk.js.map": "/portfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eeeea98.css",
+    "static/js/main.c67476cc.js"
+  ]
+}
