@@ -11,7 +11,11 @@ function ProjectDisplay() {
     <div className="project animate__animated animate__fadeIn animate__slow">
       <h1> {project.name}</h1>
       <a href={project.href}>
-        <img src={project.image} alt="projects" />
+        <img
+          className="animate__animated animate__shakeX animate__delay-2s"
+          src={project.image}
+          alt="projects"
+        />
       </a>
       <p>
         <b>Technologies:</b> {project.technologies}
