@@ -12,7 +12,7 @@ function ProjectDisplay() {
       <h1> {project.name}</h1>
       <a href={project.href}>
         <img
-          className="animate__animated animate__shakeX animate__delay-2s"
+          className="animate__animated animate__shakeX animate__delay-3s"
           src={project.image}
           alt="projects"
         />
