@@ -4,12 +4,14 @@ export const ProjectList = [
     name: "Wordle Clone",
     image: wordleImg,
     technologies: "React,CSS",
-    href: "https://github.com/WENCHO22/wordle",
+    href: "https://wencho22.github.io/wordle",
+    gh: "https://github.com/WENCHO22/wordle",
   },
   {
     name: "MealSharing App(coming soon)",
     image: "Proj2",
     technologies: "React,Node.js, mySQL, REST API",
-    href: "https://github.com/WENCHO22/meal-sharing",
+    gh: "https://github.com/WENCHO22/meal-sharing",
+    href: "https://wencho22.github.io/meal-sharing",
   },
 ];

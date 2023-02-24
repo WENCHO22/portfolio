@@ -10,11 +10,13 @@ function ProjectDisplay() {
   return (
     <div className="project animate__animated animate__fadeIn animate__slow">
       <h1> {project.name}</h1>
-      <img src={project.image} alt="projects" />
+      <a href={project.href}>
+        <img src={project.image} alt="projects" />
+      </a>
       <p>
         <b>Technologies:</b> {project.technologies}
       </p>
-      <a href={project.href} target="_blank" rel="noreferrer">
+      <a href={project.gh} target="_blank" rel="noreferrer">
         <GitHubIcon />
       </a>
     </div>
