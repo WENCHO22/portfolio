@@ -1,11 +1,10 @@
 .about {
   width: 100%;
-  height: 100vh;
   color: #3e497a;
   display: flex;
   flex-direction: column;
   width: 70%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 150px);
   justify-content: center;
   align-items: flex-start;
   margin: 0 auto;

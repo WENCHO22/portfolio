@@ -1,14 +1,18 @@
 .projects {
   width: 100%;
-  height: auto;
+  min-height: calc(100vh - 150px);
   display: flex;
   align-items: center;
   flex-direction: column;
   color: hsl(229, 33%, 30%);
+  justify-content: center;
+  gap: 50px;
 }
 
 .projects > h1 {
   margin-left: 2em;
+  font-size: 40px;
+  align-self: center;
 }
 
 .projectList {
@@ -56,15 +60,14 @@
 @media only screen and (max-width: 800px) {
   .projectList {
     grid-template-columns: 1fr;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .projectList {
     width: 100%;
   }
   .projectItem {
     width: 300px;
     height: 300px;
+  }
+  .projects > h1 {
+    margin-left: 0.5rem;
+    font-size: 30px;
   }
 }
